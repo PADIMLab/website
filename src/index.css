@@ -1,0 +1,29 @@
+body {
+  margin: 0;
+  background-color: #181B20;
+  font-family: "Belezza", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+.carousel-item {
+  height: 100%;
+}
+.react-multiple-carousel__arrow {
+  background-color: #f1965c !important;
+  border: 2px solid white !important;
+  color: black;
+}
+.react-multiple-carousel__arrow:hover {
+  background-color: #f1965cee !important;
+}
+.react-multiple-carousel__arrow--right {
+  right: calc(1px) !important;
+}
+.react-multiple-carousel__arrow--left {
+  left: calc(1px) !important;
+}
